@@ -1,24 +1,31 @@
-import logo from './logo.svg';
-import './App.scss';
+import React,{useState, useEffect} from "react";
+import './App.scss'
+import {cleanup} from "@testing-library/react";
 
 function App() {
+  
+  const [frame, setFrame] = useState(0)
+  let intervalId = null;
+  console.log(frame)
+  
+  useEffect(() => {
+
+intervalId = setInterval(() => {
+  if (frame < 499) {
+    setFrame(frame + 1)
+  }
+}, 1000/25)
+
+return() => window.clearInterval(intervalId)
+
+  }, [frame]);
+  
+
+  
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+  <div className="orzech">
+    <img src={process.env.PUBLIC_URL + `/images/ORZECH_KLATKI/JURASIC_BAKADELIO_${frame.toString().padStart(5,'0')}.png`} alt=""/>
+  </div>
   );
 }
 
