@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/bakadelio/static/css/main.ea5b4055.css",
+    "main.js": "/bakadelio/static/js/main.aa3137e9.js",
+    "index.html": "/bakadelio/index.html",
+    "main.ea5b4055.css.map": "/bakadelio/static/css/main.ea5b4055.css.map",
+    "main.aa3137e9.js.map": "/bakadelio/static/js/main.aa3137e9.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.ea5b4055.css",
+    "static/js/main.aa3137e9.js"
+  ]
+}
