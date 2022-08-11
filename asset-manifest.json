@@ -1,13 +1,13 @@
 {
   "files": {
-    "main.css": "/bakadelio/static/css/main.2d82f8c8.css",
-    "main.js": "/bakadelio/static/js/main.aa3137e9.js",
+    "main.css": "/bakadelio/static/css/main.3aca762f.css",
+    "main.js": "/bakadelio/static/js/main.39111443.js",
     "index.html": "/bakadelio/index.html",
-    "main.2d82f8c8.css.map": "/bakadelio/static/css/main.2d82f8c8.css.map",
-    "main.aa3137e9.js.map": "/bakadelio/static/js/main.aa3137e9.js.map"
+    "main.3aca762f.css.map": "/bakadelio/static/css/main.3aca762f.css.map",
+    "main.39111443.js.map": "/bakadelio/static/js/main.39111443.js.map"
   },
   "entrypoints": [
-    "static/css/main.2d82f8c8.css",
-    "static/js/main.aa3137e9.js"
+    "static/css/main.3aca762f.css",
+    "static/js/main.39111443.js"
   ]
 }
