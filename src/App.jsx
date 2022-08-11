@@ -11,10 +11,10 @@ function App() {
   useEffect(() => {
 
 intervalId = setInterval(() => {
-  if (frame < 499) {
+  if (frame < 299) {
     setFrame(frame + 1)
   }
-}, 1000/25)
+}, 1000/15)
 
 return() => window.clearInterval(intervalId)
 
